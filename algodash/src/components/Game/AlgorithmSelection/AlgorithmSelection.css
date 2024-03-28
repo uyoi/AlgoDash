@@ -1,0 +1,18 @@
+.algorithm-selection {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.algorithm-selection ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.algorithm-selection li {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.algorithm-selection li.selected {
+    background-color: #f0f0f0;
+}

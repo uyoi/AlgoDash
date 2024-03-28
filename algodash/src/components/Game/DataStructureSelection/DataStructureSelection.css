@@ -1,0 +1,19 @@
+/* DataStructureSelection.css */
+.data-structure-selection {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  .data-structure-selection ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .data-structure-selection li {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .data-structure-selection li.selected {
+    background-color: #f0f0f0;
+  }
